@@ -1,0 +1,117 @@
+body{
+    font-family:Arial;
+    background:url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1{
+    margin: 0px 0px;
+}
+p{
+    margin:0px 0px;
+}
+
+
+#title{
+    color:rgba(243, 243, 243, 0.803);
+    font-weight: bold;
+    margin-top:50px;
+    margin-bottom:8px;
+    text-align: center;
+    font-size:30px;
+}
+
+#description{
+    color:rgba(243, 243, 243, 0.803);
+    font-size:16px;
+    width: 400px;
+    text-align: center;
+    margin-left:430px;
+    line-height: 20px;
+    font-style:italic;
+}
+
+#survey-form{
+    margin:35px auto;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(8, 15, 116, 0.645);
+    padding:40px 50px;
+    width: 700px;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+}
+    #name-label{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45px; 
+        margin-bottom: 13px;
+    }
+
+    #email-label{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45px;
+        margin-bottom: 13px;
+    }
+
+    #number-label{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45px;
+        margin-bottom: 13px;
+    }
+
+    #gender-div{
+        margin-bottom: 25px;
+        height: 50px;
+        vertical-align: middle;
+    }
+        #Male{
+            display: flex;
+            flex-direction: row;
+            margin:3px 0px;
+        }
+            #male-radio{
+                margin-bottom: 3px;
+            }
+        
+        #Female{
+            display: flex;
+            flex-direction: row;
+        }
+            #female-radio{
+                margin-bottom: 3px;
+            }
+
+    #programming-language{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 13px;
+        height: 45px;
+    }
+    #checkbox-id{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 13px;
+        height: 170px;
+    }
+    #Bio-div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 13px;
+    }
+        #Bio-label{
+            margin-bottom: 10px;
+        }
+
+    
+    
+

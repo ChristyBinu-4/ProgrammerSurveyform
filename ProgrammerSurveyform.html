@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Survey form for programmers
+    </title>
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+    
+    <h1 id='title'>Survey form for programmers</h1>
+    <p id='description'>Survey form for checking demands 
+    in programming languages and related field</p> 
+    
+    <form action="" id="survey-form">
+    
+        <label id="name-label">
+          <div>Name</div>
+          <input type="text" id="name" required placeholder="Enter your Name">
+        </label>
+        <label id="email-label">
+            <div>Email</div> 
+            <input type="email" id="email" required placeholder="Enter your Email">
+        </label>
+        <label id="number-label">
+            <div>Age</div>
+            <input type="number" id="number" min="12" max="120" placeholder="Age">
+        </label>
+        
+        <div id="gender-div">
+          <div>Gender</div>
+          <label id="Male">
+            <input type="radio" id="male-radio" value="Male" name="Gender">
+            <div id="male-div">Male</div> 
+          </label>
+          <label id="Female">
+            <input type="radio" id="female-radio" value="Female" name="Gender">
+            <div id="female-div">Female</div>
+          </label>
+        </div>
+            
+        <div id="programming-language">
+          <label id="programming-language-label">Select Your Preffered field</label>
+          <select id="dropdown">
+            <option value="">Select your option</option>
+            <option value="">Front End Development</option>
+            <option value="">Back End Development</option>
+            <option value="">Full Stack Development</option>
+            <option value="">Game Development</option>
+            <option value="">Mobile App Development</option>
+            <option value="">Software Testing</option>
+            <option value="">Software Engineering</option>
+            <option value="">Data visualization</option> 
+          </select>
+        </div>
+
+        <div id="checkbox-id">
+          <div id="checkbox-label">Check out the programming languages you know :</div>
+          <label id="JavaScript">
+            <input type="Checkbox" value="JavaScript">
+            JavaScript
+          </label>
+          <label id="Python">
+            <input type="Checkbox" value="Python">
+            Python
+          </label>
+          <label id="Java">
+            <input type="Checkbox" value="Java">
+            Java
+          </label>
+          <label id="Kotlin">
+            <input type="Checkbox" value="Kotlin">
+            Kotlin
+          </label>
+          <label id="C++">
+            <input type="Checkbox" value="C++">
+            C++
+          </label>
+          <label id="C#">
+            <input type="Checkbox" value="C#">
+            C#
+          </label>
+        </div>
+        
+        <div id="Bio-div">
+          <label id="Bio-label">Provide your Bio 
+            <label id="Bio-label-description">(Explain yourself in more than 250 characters)</label> 
+          </label>
+          <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+        </div>
+        
+
+        <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
